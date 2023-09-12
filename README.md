@@ -1,5 +1,7 @@
 ## deployed application.
 
+https://pzhong1.github.io/React-Portfolio/
+
 ## The URL of the GitHub repository,
 
 ## TASK
@@ -11,7 +13,7 @@ by doing this VScode will auto create few file for begin React work
 ## HOW TO RUN APPLICATION
 
 npm install(if never did)
-cd my app
+cd my-app(because my code is inside my-app folder)
 npm run start
 
 ## User Story

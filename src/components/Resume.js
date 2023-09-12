@@ -16,7 +16,7 @@ function Resume() {
       <h1>Resume</h1>
       <div className="resume-content">
         <a
-          href="/assets/puze-Zhong-resume.pdf"
+          href={process.env.PUBLIC_URL + "/assets/puze-Zhong-resume.pdf"}
           download="puze-Zhong-resume.pdf"
           className="resume-download-link btn btn-primary"
         >

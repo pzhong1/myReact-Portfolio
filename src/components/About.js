@@ -6,7 +6,7 @@ function About() {
       <h2 className="mb-4">About Me</h2>
       {/* this is my picture src and set the width 200  and if the pic is not display then display puze zhong */}
       <img
-        src="/images/puze zhong img-circle.png"
+        src={process.env.PUBLIC_URL + "/images/puze zhong img-circle.png"}
         width={200}
         alt="Puze Zhong"
       />

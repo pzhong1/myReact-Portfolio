@@ -1,9 +1,8 @@
 /* Contact.js style section */
 .container {
-  background-color: rgb(156, 157, 187); 
+  background-color: rgb(156, 157, 187);
   border-radius: 10px;
 }
-
 
 /* NavBar.js section */
 .navbar-container {
@@ -12,7 +11,7 @@
   align-items: center;
   padding: 10px;
   background-color: rgb(207, 207, 212);
-  border-bottom: 1px solid #dee2e6; 
+  border-bottom: 1px solid #dee2e6;
 }
 
 .navbar-left {
@@ -36,45 +35,44 @@
 }
 
 .navbar-right ul li a {
-  color: #000; 
+  color: #000;
   text-decoration: none;
   cursor: pointer;
   padding: 5px;
 }
 
 .navbar-right ul li a:hover {
-  background-color: #ddec7a; 
+  background-color: #ddec7a;
   color: rgb(38, 81, 211);
   text-decoration: underline;
-  border-radius: 15px
-  
+  border-radius: 15px;
 }
 
 /* about section */
 .about {
   text-align: center;
-  background-color: #cbdbeb; 
-  padding: 3rem; 
-  border-radius: 20px; 
-  max-width: 1000px; 
-  margin: 0 auto; 
+  background-color: #cbdbeb;
+  padding: 3rem;
+  border-radius: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 .about h2 {
   text-align: left;
   color: #000;
   padding: 1rem 1rem;
-  border-bottom: 2px solid #000; 
+  border-bottom: 2px solid #000;
 }
 .about img {
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
 }
 
 .about p {
-  font-size: 1.15rem; 
-  line-height: 1.6; 
-  color: #333; 
-  text-align: justify; 
+  font-size: 1.15rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: justify;
 }
 
 /* Portfolio Section */
@@ -86,31 +84,36 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
 
 .project {
-  width: 30%; 
+  flex: 0 1 calc(30% - 20px);
   border: 1px solid #ccc;
   padding: 10px;
   border-radius: 10px;
-  
+  box-sizing: border-box;
 }
 
 .project img {
-  max-width: 50%;
+  width: 100%;
   border-radius: 10px;
- 
+  height: auto;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .project a {
-  display: inline-block;
-  margin: 3px;
+  display: block;
+  margin: 5px 0;
   padding: 5px;
   border: 1px solid #000;
   background-color: #c6d0da;
   text-decoration: none;
   color: #000;
   border-radius: 6px;
+  text-align: center;
 }
 
 .project a:hover {
@@ -118,13 +121,12 @@
   background-color: #c3c19d;
 }
 
-
 /* RESUME section */
 
 .resume-section {
   padding: 20px;
-  font-family: 'Arial, sans-serif'; 
-  color: #333; 
+  font-family: "Arial, sans-serif";
+  color: #333;
 }
 
 .text-center {
@@ -146,7 +148,15 @@
   gap: 20px;
 }
 
-.frontend-skills h3, .backend-skills h3 {
+.frontend-skills,
+.backend-skills {
+  min-height: 300px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.frontend-skills h3,
+.backend-skills h3 {
   border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
   margin-bottom: 10px;
@@ -164,22 +174,20 @@
   gap: 20px;
 }
 
-
 /* footer github and linked icon style section */
 @keyframes beatFade {
   0% {
-      opacity: 1;
-      transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
   }
   50% {
-      opacity: 0.5;
-      transform: scale(1.1);
+    opacity: 0.5;
+    transform: scale(1.1);
   }
   100% {
-      opacity: 1;
-      transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
   }
- 
 }
 
 .beatFade-icon {
@@ -193,10 +201,12 @@
   align-items: center;
   flex-direction: column;
   bottom: 0;
+  margin-top: 20px;
 
-width: 100%;
-padding: 10px;
-box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .footer div {
@@ -210,8 +220,4 @@ box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
   flex-direction: column;
   align-items: center;
   text-decoration: none; /* remove the underline */
-}
-
-.footer p {
-  margin-bottom: 1rem; 
 }

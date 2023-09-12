@@ -5,42 +5,42 @@ const projects = [
   // project 1
   {
     title: "Portfolio use HTML",
-    image: "/images/portfolio-use-HTML.png",
+    image: process.env.PUBLIC_URL + "/images/portfolio-use-HTML.png",
     deployedUrl: "https://pzhong1.github.io/challenge02/",
     githubUrl: "https://github.com/pzhong1/challenge02.git",
   },
   // project 2
   {
     title: "Coding Quiz Challenge",
-    image: "/images/coding-quiz-challenge.png",
+    image: process.env.PUBLIC_URL + "/images/coding-quiz-challenge.png",
     deployedUrl: "https://pzhong1.github.io/challenge04/",
     githubUrl: "https://github.com/pzhong1/challenge04.git",
   },
   // project 3
   {
     title: "Work Day Scheduler",
-    image: "/images/work-day-scheduler.png",
+    image: process.env.PUBLIC_URL + "/images/work-day-scheduler.png",
     deployedUrl: "https://pzhong1.github.io/challenge05/",
     githubUrl: "https://github.com/pzhong1/challenge05.git",
   },
   // project 4
   {
     title: "Password Generator",
-    image: "/images/password-generator.png",
+    image: process.env.PUBLIC_URL + "/images/password-generator.png",
     deployedUrl: "https://pzhong1.github.io/challenge03/",
     githubUrl: "https://github.com/pzhong1/challenge03.git",
   },
   // project 5
   {
     title: "Weather Dashboard",
-    image: "/images/Weather-Dashboard.png",
+    image: process.env.PUBLIC_URL + "/images/Weather-Dashboard.png",
     deployedUrl: "https://pzhong1.github.io/challenge06/",
     githubUrl: "https://github.com/pzhong1/challenge06.git",
   },
   // project 6
   {
     title: "BA Travel",
-    image: "/images/BA-Travel.png",
+    image: process.env.PUBLIC_URL + "/images/BA-Travel.png",
     deployedUrl: "https://pzhong1.github.io/BA-travel-/",
     githubUrl: "https://github.com/pzhong1/team-project1.git",
   },
