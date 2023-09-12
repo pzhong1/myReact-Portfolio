@@ -11,11 +11,14 @@ create a portfolio by using React skills
 TO Create React App type: npx create-react-app my-react-app, replace my-react-app to anything
 by doing this VScode will auto create few file for begin React work
 
-## HOW TO RUN APPLICATION
+## HOW TO RUN APPLICATION（local)
 
 npm install(if never did)
 cd my-app(because my code is inside my-app folder)
 npm run start
+
+## HOW to deploy appliaction on github-page
+https://create-react-app.dev/docs/deployment/#github-pages
 
 ## User Story
 
