@@ -2,7 +2,8 @@
 
 https://pzhong1.github.io/React-Portfolio/
 
-## The URL of the GitHub repository,
+## The URL of the GitHub repository
+https://github.com/pzhong1/React-Portfolio.git
 
 ## TASK
 
