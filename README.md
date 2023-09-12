@@ -55,3 +55,5 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ## example image
+![ezgif com-gif-maker](https://github.com/pzhong1/React-Portfolio/assets/123424361/32d99839-6669-4485-8ef2-c1b5c2152fa5)
+
