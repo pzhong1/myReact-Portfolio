@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { validateEmail } from "../../src/utils/helpers"; // import this to check the email address
+import { validateEmail } from "../../src/utils/helpers"; // import this from /utils/helper.js to check the email address
 import "bootstrap/dist/css/bootstrap.min.css"; // import bootstrap for styling
 import "../App.css";
 
@@ -8,7 +8,7 @@ function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  // if-else statment meesage cannot be blank and makesure enter valid email
+  // if-else statment meesage cannot be blank and make sure enter valid email
   const handleSubmit = (event) => {
     event.preventDefault();
     if (!message) {
@@ -28,8 +28,9 @@ function Contact() {
       className="container d-flex flex-column justify-content-center"
       style={{ marginTop: "50px" }}
     >
+    {/* when submit the form the handlesubmit will be triggered  */}
       <form onSubmit={handleSubmit}>
-        <div className="mb-3">
+        <div className="mb-3"> 
           <h1 className="mb-4 justify-content-center">Contact Info</h1>
           <label htmlFor="name" className="form-label">
             Name
@@ -39,8 +40,9 @@ function Contact() {
             type="text"
             placeholder="Enter your name"
             value={name}
+            // calls the setName function to update the value of the name state variable when the value of the input field changes
             onChange={(e) => setName(e.target.value)}
-            className="form-control"
+            className="form-control" //this is boostrap for styling
           />
         </div>
 

@@ -1,4 +1,5 @@
 // App.js is the main file that hold all the components file
+
 import React, { useState, useEffect } from "react"; //hooks
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
