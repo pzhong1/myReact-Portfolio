@@ -2,12 +2,9 @@
 
 https://pzhong1.github.io/React-Portfolio/
 
-<<<<<<< HEAD
-## The URL of the GitHub repository,
-=======
 ## The URL of the GitHub repository
+
 https://github.com/pzhong1/React-Portfolio.git
->>>>>>> 3e34ddcfc497443fd95dc62ae51ed6a5bacef3ed
 
 ## TASK
 
@@ -22,6 +19,7 @@ cd my-app(because my code is inside my-app folder)
 npm run start
 
 ## HOW to deploy appliaction on github-page
+
 https://create-react-app.dev/docs/deployment/#github-pages
 
 ## User Story
@@ -59,5 +57,5 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 
 ## example image
-![ezgif com-gif-maker](https://github.com/pzhong1/React-Portfolio/assets/123424361/32d99839-6669-4485-8ef2-c1b5c2152fa5)
 
+![ezgif com-gif-maker](https://github.com/pzhong1/React-Portfolio/assets/123424361/32d99839-6669-4485-8ef2-c1b5c2152fa5)
