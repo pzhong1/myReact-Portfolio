@@ -4,7 +4,7 @@
 
 ## The URL of the GitHub repository
 
-https://github.com/pzhong1/React-Portfolio.git
+[https://github.com/pzhong1/React-Portfolio.git](https://github.com/pzhong1/myReact-Portfolio.git)
 
 ## TASK
 
