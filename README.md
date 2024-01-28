@@ -1,6 +1,6 @@
 ## deployed application.
 
-https://pzhong1.github.io/React-Portfolio/
+"https://pzhong1.github.io/myReact-Portfolio/"
 
 ## The URL of the GitHub repository
 
