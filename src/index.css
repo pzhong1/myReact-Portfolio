@@ -1,0 +1,9 @@
+body {
+  /* background-image: url('../public/images/bodybg.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Roboto", sans-serif;
+  background-image: linear-gradient(to right, #e6e9f0, #3f4650);
+  /* set it -1 any pic will cover the background */
+}
